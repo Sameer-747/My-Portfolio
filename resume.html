@@ -149,6 +149,57 @@
       font-size: 13.5px;
       line-height: 1.5;
     }
+
+    /* ✅ Mobile Responsive */
+    @media (max-width: 768px) {
+      .resume {
+        flex-direction: column;
+        width: 95%;
+        margin: 10px auto;
+      }
+
+      .left-panel,
+      .right-panel {
+        width: 100%;
+      }
+
+      .left-panel {
+        border-bottom: 1px solid #ccc;
+      }
+
+      .left-top-wave h1 {
+        font-size: 20px;
+      }
+
+      .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+      }
+
+      .right-panel {
+        padding: 20px;
+      }
+
+      .item h3 {
+        font-size: 14px;
+      }
+
+      .item span {
+        float: none;
+        display: block;
+        font-size: 12px;
+        margin-top: 4px;
+      }
+
+      .section-title {
+        font-size: 15px;
+      }
+
+      p, li {
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -158,12 +209,11 @@
         <h1>Sameer Shaik</h1>
       </div>
       <div class="left-panel-content">
-       
         <div class="section-title">Personal details</div>
-        <div class="info-item"><span class="bi bi-envelope"> Email : sameershaik0927@gmail.com </span></div>
-        <div class="info-item"><span class="bi bi-telephone">Ph.No : +91 8074411426</span></div>
-        <div class="info-item"><span class="bi bi-house">Address : Rebala, BuchiReddy Palem(M), 524305, Nellore</span></div>
-        <div class="info-item"><span class="bi bi-linkedin"> LinkedIN : linkedin.com/in/sameer-shaik-26a941324 </span></div>
+        <div class="info-item">Email: sameershaik0927@gmail.com</div>
+        <div class="info-item">Ph.No: +91 8074411426</div>
+        <div class="info-item">Address: Rebala, BuchiReddy Palem(M), 524305, Nellore</div>
+        <div class="info-item">LinkedIn: linkedin.com/in/sameer-shaik-26a941324</div>
 
         <div class="section-title">Skills</div>
         <ul>
@@ -199,17 +249,15 @@
 
       <h2>Education</h2>
       <div class="item">
-        <h3>Board of Secondary Education – Narayana EM High School, Buchi Reddy Palem <span>Jun 2019 - Mar 2020</span></h3>
+        <h3>Board of Secondary Education – Narayana EM High School <span>Jun 2019 - Mar 2020</span></h3>
         <p>Achieved an outstanding 95% in 10th grade, reflecting strong academic dedication and consistent performance.</p>
       </div>
-
       <div class="item">
-        <h3>Board of Intermediate Education – Rao's Junior College, Nellore <span>Aug 2020 - Mar 2022</span></h3>
+        <h3>Board of Intermediate – Rao's Junior College, Nellore <span>Aug 2020 - Mar 2022</span></h3>
         <p>Completed 12th grade, gaining key insights that helped steer my career path towards technology and design.</p>
       </div>
-
       <div class="item">
-        <h3>BCA – Zenex Vision Degree College, Nellore <span>Aug 2022 - Apr 2025</span></h3>
+        <h3>BCA – Zenex Vision Degree College <span>Aug 2022 - Apr 2025</span></h3>
         <p>Scored 91.5% in my degree, highlighting my strong commitment to academics and consistent performance throughout the course.</p>
       </div>
 
